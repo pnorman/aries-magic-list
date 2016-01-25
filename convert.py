@@ -32,5 +32,5 @@ for row in data:
   d.append(f)
 
 g = {'type':'FeatureCollection','features':d}
-with open('z4to10.json', 'w') as f:
+with open('z4to10.geojson', 'w') as f:
   f.write(json.dumps(g))
